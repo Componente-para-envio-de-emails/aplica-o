@@ -17,7 +17,6 @@ public class EmailService {
     public EmailService(@Value("${spring.mail.host}") String host,
                         @Value("${spring.mail.username}") String username,
                         @Value("${spring.mail.password}") String password) {
-        System.out.println(host);
         this.jakartaMailSender = new JakartaMailSender(host, username, password);
     }
 
@@ -43,6 +42,4 @@ public class EmailService {
         multiRecipientEmailSender.createContent(body,source,filename);
         multiRecipientEmailSender.sendEmail(recipients,subject);
     }
-
-
 }
