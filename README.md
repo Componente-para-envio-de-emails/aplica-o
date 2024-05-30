@@ -6,7 +6,7 @@
 - **EmailTemplateController**: Este controlador é responsável pela criação e gerenciamento de templates de e-mail. Você também pode enviar e-mails utilizando esses templates.
 - **EmailService**: Este é o serviço que implementa a lógica de envio de e-mails.
 - **EmailTemplateService**: Este serviço implementa a lógica de criação, armazenamento e recuperação de templates de e-mail.
-- EmailSenderAppApplication: Classe principal que inicializa a aplicação Spring Boot.
+- **EmailSenderAppApplication**: Classe principal que inicializa a aplicação Spring Boot.
 
 ## Funcionalidades
 
